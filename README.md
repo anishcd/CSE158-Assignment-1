@@ -9,3 +9,19 @@ Utilized [Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.or
 ## Time Played Prediction
 Trained a Latent Factor Model, designed to work for the relatively sparse datasets such as this. Implemented the [Surprise SVD++](https://surprise.readthedocs.io/en/stable/matrix_factorization.html) Algorithm, and fine-tuned hyperparamaters using Bayesian Optimization methods. Implemented early-stopping on the validation set to avoid overfitting, and ***achieved an average MSE of 3.0345, which ranked in the top 10% of the class***
 
+## To Train Model Locally:
+Download `train.json.gz` from the writeup link, and run the assignment1.py code to train models for both prediction tasks
+
+## Installation/Dependencies
+
+Implicit and Surprise can be installed from pypi with
+```
+pip install implicit
+pip install surprise
+```
+
+
+
+
+
+
